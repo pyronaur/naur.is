@@ -7,6 +7,9 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	background-color: hsl(188deg, 60%, 25%);
+	background-image: url('/background.jpg');
+	color: white;
 }
 
 
@@ -20,10 +23,14 @@ body {
 	opacity: 0.1;
 }
 
+::selection {
+	background-color: hsl(20, 70%, 60%);
+}
 
 h1 {
 	font-size: 10rem;text-align: center;
 	line-height: 1;
+	text-shadow: 0px 2px 1px hsl(188deg, 60%, 15%);
 
 	span {
 		font-size: 5rem;
