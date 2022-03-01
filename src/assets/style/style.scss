@@ -1,0 +1,34 @@
+@use "reset";
+
+body {
+	font-family: sans-serif;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.nauris {
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+}
+
+.es-te {
+	opacity: 0.1;
+}
+
+
+h1 {
+	font-size: 10rem;text-align: center;
+	line-height: 1;
+
+	span {
+		font-size: 5rem;
+		line-height: 1;
+		opacity: 0.5;
+		margin-left: -1.25rem;
+	}
+}
